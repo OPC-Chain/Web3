@@ -10,7 +10,7 @@
 - Install dependencies: `npm install` (not the usual install command)
 - Make file `.env` and copy the `.env.dist` file to `.env`
     - Replace the `SECRET_JWT` value with your own personal [JWT](https://jwt.io/introduction).
-    - Create your own Database in MongoDB and fill the information `mongo_host` `mongo_port` `mongo_authen` and `mongo_db=` [Create Database MongoDB](https://www.mongodb.com/basics/create-database)
+    - Create your own Database in MongoDB and fill the information `mongo_host` `mongo_port` `mongo_authen` and `mongo_db` [Create Database MongoDB](https://www.mongodb.com/basics/create-database)
 - Running: 
 
 ```bash
@@ -35,6 +35,21 @@ $ npm run test:e2e
 
 # test coverage
 $ npm run test:cov
+```
+
+## Usage
+```js
+const Web3 = require('web3-opc');
+
+const userId = '620dea7c37b14d704303667a'; // get return from extension
+const url = 'https://poolswap.ai';
+
+// get current account status
+const currentAccount = await Web3.currentAccount(userId, url)
+// handling connect dApp
+const connect = await Web3.handleConnect(userId, url)
+// handling disconnect dApp
+const disconnect = await Web3.handleDisconnect(userId, url)
 ```
 
 ## License
