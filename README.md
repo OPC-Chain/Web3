@@ -56,9 +56,6 @@ const disconnect = await Web3.handleDisconnect(userId, url)
 
 Nest is [MIT licensed](LICENSE).
 
-### SSH
-ssh -p 2213 ubuntu@14.225.239.246
-https://cryptologos.cc/
 ### TODO
 - Api restore wallet: Missing import private key x
 - Api get balance missing price and coin image Url x
