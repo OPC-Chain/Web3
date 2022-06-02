@@ -1,0 +1,1 @@
+{"version":3,"file":"paginator.dto.d.ts","sourceRoot":"","sources":["../../../src/common/dto/paginator.dto.ts"],"names":[],"mappings":"AAAA,qBAAa,SAAS,CAAC,CAAC;IACtB,IAAI,EAAE,CAAC,EAAE,CAAC;IACV,KAAK,EAAE,MAAM,CAAC;IACd,WAAW,EAAE,MAAM,CAAC;IACpB,SAAS,EAAE,MAAM,CAAC;IAClB,QAAQ,EAAE,MAAM,CAAC;IACjB,QAAQ,EAAE,MAAM,CAAC;IACjB,OAAO,EAAE,MAAM,CAAC;IAChB,KAAK,EAAE,MAAM,CAAC;CAKf"}
